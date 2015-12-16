@@ -27,7 +27,11 @@ public enum Proposal {
 
     COGNITO("Cognito"),
 
-    KOCHEN("Selber Kochen");
+    KOCHEN("Selber Kochen"),
+
+    KEKOA("Kekoa"),
+
+    BAECKER("Salat vom Bäcker");
 
     private static final List<Proposal> VALUES = Collections.unmodifiableList(Arrays.asList(values()));
     private static final int SIZE = VALUES.size();
